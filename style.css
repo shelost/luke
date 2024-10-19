@@ -1,7 +1,31 @@
 body{
     margin: 50px;
+    background-color:black;
+    color: white;
 }
 
 img{
     width: 400px;
+}
+
+p{
+    font-family: sans-serif;
+    margin-bottom:50px ;
+}
+
+#dibby{
+    border-radius: 50px;
+}
+
+a{
+    color: yellow;
+}
+
+a:hover{
+    color: rgb(187, 70, 187);
+}
+
+#bart{
+    text-align:center;
+    width: fit-content;
 }
