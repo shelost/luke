@@ -1,7 +1,11 @@
 body{
     margin: 50px;
-    background-color:black;
+    padding-bottom: 100px;
+    background-color:rgb(30, 28, 39);
     color: white;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 img{
@@ -10,22 +14,31 @@ img{
 
 p{
     font-family: sans-serif;
-    margin-bottom:50px ;
+    margin-bottom:20px;
 }
 
 #dibby{
-    border-radius: 50px;
+    border-radius: 25px;
 }
 
 a{
     color: yellow;
+    display: block;
+    width: fit-content;
 }
 
 a:hover{
+    width: fit-content !important;
     color: rgb(187, 70, 187);
 }
 
 #bart{
     text-align:center;
     width: fit-content;
+    margin-top:50px;
+}
+
+h1{
+    font-size: 100px;
+
 }
